@@ -1,0 +1,14 @@
+id,label,name,season,difficulty
+67,Activity,hiking,spring,medium
+68,Activity,museum_visit,all,easy
+69,Activity,cycling,summer,medium
+70,Activity,photo_tour,all,easy
+71,Activity,food_tasting,all,easy
+72,Activity,kayaking,summer,hard
+73,Activity,wine_tasting,fall,easy
+74,Activity,city_tour,all,easy
+75,Activity,snorkeling,summer,medium
+76,Activity,desert_safari,winter,medium
+77,Activity,hot_springs,winter,easy
+78,Activity,shopping,all,easy
+79,Activity,temple_visit,all,easy

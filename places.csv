@@ -1,0 +1,19 @@
+id,label,name,type_place,rating
+49,Place,Hagia Sophia,museum,4.8
+50,Place,Vondelpark,park,4.6
+51,Place,Eiffel Tower,monument,4.9
+52,Place,Colosseum,monument,4.7
+53,Place,Sagrada Familia,church,4.8
+54,Place,Berlin Wall Memorial,museum,4.5
+55,Place,Charles Bridge,landmark,4.7
+56,Place,Schönbrunn Palace,palace,4.8
+57,Place,Fisherman's Bastion,monument,4.6
+58,Place,Belém Tower,fortress,4.5
+59,Place,Tokyo Tower,monument,4.7
+60,Place,British Museum,museum,4.9
+61,Place,Pyramids of Giza,monument,4.8
+62,Place,Taj Mahal,monument,4.9
+63,Place,Burj Khalifa,skyscraper,4.7
+64,Place,Fushimi Inari Shrine,temple,4.8
+65,Place,Prado Museum,museum,4.8
+66,Place,Anıtkabir,monument,4.9
