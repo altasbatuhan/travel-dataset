@@ -1,0 +1,101 @@
+type,id,label,username,age,homeCity,travelStyle,name,population,hasAirport,continent,code,type_place,rating,season,difficulty,transport,duration,cost,date,durationDays,relationship,from,to
+User,1,User,batuhan,23,Istanbul,Backpacker,,,,,,,,,,,,,,,,,
+User,2,User,alex,28,Amsterdam,Luxury,,,,,,,,,,,,,,,,,
+User,3,User,marie,26,Paris,Budget,,,,,,,,,,,,,,,,,
+User,4,User,johan,32,Berlin,Nomad,,,,,,,,,,,,,,,,,
+User,5,User,sofia,30,Rome,Family,,,,,,,,,,,,,,,,,
+User,6,User,luca,29,Milan,Adventure,,,,,,,,,,,,,,,,,
+User,7,User,emma,24,Vienna,Cultural,,,,,,,,,,,,,,,,,
+User,8,User,liam,35,Dublin,Solo,,,,,,,,,,,,,,,,,
+City,9,City,,,,,Istanbul,16000000,TRUE,Europe,,,,,,,,,,,,,
+City,10,City,,,,,Amsterdam,900000,TRUE,Europe,,,,,,,,,,,,,
+City,11,City,,,,,Paris,2100000,TRUE,Europe,,,,,,,,,,,,,
+City,12,City,,,,,Berlin,3600000,TRUE,Europe,,,,,,,,,,,,,
+City,13,City,,,,,Rome,2800000,TRUE,Europe,,,,,,,,,,,,,
+City,14,City,,,,,Barcelona,5500000,TRUE,Europe,,,,,,,,,,,,,
+City,15,City,,,,,Prague,1300000,TRUE,Europe,,,,,,,,,,,,,
+City,16,City,,,,,Vienna,1900000,TRUE,Europe,,,,,,,,,,,,,
+City,17,City,,,,,Budapest,1700000,TRUE,Europe,,,,,,,,,,,,,
+City,18,City,,,,,Lisbon,500000,TRUE,Europe,,,,,,,,,,,,,
+Country,19,Country,,,,,Turkey,,,,TR,,,,,,,,,,,,
+Country,20,Country,,,,,Netherlands,,,,NL,,,,,,,,,,,,
+Country,21,Country,,,,,France,,,,FR,,,,,,,,,,,,
+Country,22,Country,,,,,Germany,,,,DE,,,,,,,,,,,,
+Country,23,Country,,,,,Italy,,,,IT,,,,,,,,,,,,
+Country,24,Country,,,,,Spain,,,,ES,,,,,,,,,,,,
+Country,25,Country,,,,,Czech Republic,,,,CZ,,,,,,,,,,,,
+Country,26,Country,,,,,Austria,,,,AT,,,,,,,,,,,,
+Country,27,Country,,,,,Hungary,,,,HU,,,,,,,,,,,,
+Country,28,Country,,,,,Portugal,,,,PT,,,,,,,,,,,,
+Place,29,Place,,,,,Hagia Sophia,,,,,museum,4.8,,,,,,,,,,
+Place,30,Place,,,,,Vondelpark,,,,,park,4.6,,,,,,,,,,
+Place,31,Place,,,,,Eiffel Tower,,,,,monument,4.9,,,,,,,,,,
+Place,32,Place,,,,,Colosseum,,,,,monument,4.7,,,,,,,,,,
+Place,33,Place,,,,,Sagrada Familia,,,,,church,4.8,,,,,,,,,,
+Place,34,Place,,,,,Berlin Wall Memorial,,,,,museum,4.5,,,,,,,,,,
+Place,35,Place,,,,,Charles Bridge,,,,,landmark,4.7,,,,,,,,,,
+Place,36,Place,,,,,Schönbrunn Palace,,,,,palace,4.8,,,,,,,,,,
+Place,37,Place,,,,,Fisherman's Bastion,,,,,monument,4.6,,,,,,,,,,
+Place,38,Place,,,,,Belém Tower,,,,,fortress,4.5,,,,,,,,,,
+Activity,39,Activity,,,,hiking,,,,,,,,spring,medium,,,,,,,,
+Activity,40,Activity,,,,museum_visit,,,,,,,,all,easy,,,,,,,,
+Activity,41,Activity,,,,cycling,,,,,,,,summer,medium,,,,,,,,
+Activity,42,Activity,,,,photo_tour,,,,,,,,all,easy,,,,,,,,
+Activity,43,Activity,,,,food_tasting,,,,,,,,all,easy,,,,,,,,
+Activity,44,Activity,,,,kayaking,,,,,,,,summer,hard,,,,,,,,
+Activity,45,Activity,,,,wine_tasting,,,,,,,,fall,easy,,,,,,,,
+Activity,46,Activity,,,,city_tour,,,,,,,,all,easy,,,,,,,,
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,9,19
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,10,20
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,11,21
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,12,22
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,13,23
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,14,24
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,15,25
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,16,26
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,17,27
+Relationship,,,,,,,,,,,,,,,,,,,,,LOCATED_IN,18,28
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,9,29
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,10,30
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,11,31
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,12,34
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,13,32
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,14,33
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,15,35
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,16,36
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,17,37
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS,18,38
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,29,40
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,30,41
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,31,42
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,32,43
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,33,42
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,34,40
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,35,46
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,36,40
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,37,42
+Relationship,,,,,,,,,,,,,,,,,,,,,HAS_ACTIVITY,38,46
+Relationship,,,,,,,,,,,,,,,,flight,3,150,,,CONNECTED_TO,9,11
+Relationship,,,,,,,,,,,,,,,,train,6,60,,,CONNECTED_TO,10,12
+Relationship,,,,,,,,,,,,,,,,flight,2,90,,,CONNECTED_TO,13,14
+Relationship,,,,,,,,,,,,,,,,bus,4,25,,,CONNECTED_TO,15,16
+Relationship,,,,,,,,,,,,,,,,train,3,40,,,CONNECTED_TO,16,17
+Relationship,,,,,,,,,,,,,,,,flight,2.5,75,,,CONNECTED_TO,17,18
+Relationship,,,,,,,,,,,,,,,,,,,6/10/2023,4,VISITED,1,11
+Relationship,,,,,,,,,,,,,,,,,,,9/15/2022,6,VISITED,2,9
+Relationship,,,,,,,,,,,,,,,,,,,8/1/2023,5,VISITED,3,13
+Relationship,,,,,,,,,,,,,,,,,,,5/20/2023,3,VISITED,6,15
+Relationship,,,,,,,,,,,,,,,,,,,7/12/2023,7,VISITED,7,16
+Relationship,,,,,,,,,,,,,,,,,,,4/5/2023,2,VISITED,8,18
+Relationship,,,,,,,,,,,,,,,,,,,,,INTERESTED_IN,1,39
+Relationship,,,,,,,,,,,,,,,,,,,,,INTERESTED_IN,3,40
+Relationship,,,,,,,,,,,,,,,,,,,,,INTERESTED_IN,4,41
+Relationship,,,,,,,,,,,,,,,,,,,,,INTERESTED_IN,6,44
+Relationship,,,,,,,,,,,,,,,,,,,,,INTERESTED_IN,7,40
+Relationship,,,,,,,,,,,,,,,,,,,,,INTERESTED_IN,8,45
+Relationship,,,,,,,,,,,,,,,,,,,,,FRIEND_WITH,1,2
+Relationship,,,,,,,,,,,,,,,,,,,,,FRIEND_WITH,5,3
+Relationship,,,,,,,,,,,,,,,,,,,,,FRIEND_WITH,2,4
+Relationship,,,,,,,,,,,,,,,,,,,,,FRIEND_WITH,6,7
+Relationship,,,,,,,,,,,,,,,,,,,,,FRIEND_WITH,7,8
+Relationship,,,,,,,,,,,,,,,,,,,,,FRIEND_WITH,3,6
