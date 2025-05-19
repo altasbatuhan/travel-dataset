@@ -1,0 +1,16 @@
+id,label,username,age,homeCity,travelStyle
+1,User,batuhan,23,Istanbul,Backpacker
+2,User,alex,28,Amsterdam,Luxury
+3,User,marie,26,Paris,Budget
+4,User,johan,32,Berlin,Nomad
+5,User,sofia,30,Rome,Family
+6,User,luca,29,Milan,Adventure
+7,User,emma,24,Vienna,Cultural
+8,User,liam,35,Dublin,Solo
+9,User,ayse,27,Ankara,Cultural
+10,User,carlos,31,Madrid,Adventure
+11,User,mei,29,Tokyo,Luxury
+12,User,steve,33,London,Backpacker
+13,User,priya,25,Mumbai,Budget
+14,User,yuki,30,Kyoto,Cultural
+15,User,hassan,34,Cairo,Solo
