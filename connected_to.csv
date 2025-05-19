@@ -11,3 +11,4 @@ from_id,to_id,relationship,transport,duration,cost
 16,32,CONNECTED_TO,flight,4,280
 29,33,CONNECTED_TO,flight,6,350
 30,29,CONNECTED_TO,flight,8,420
+17,32,CONNECTED_TO,flight,4,300
