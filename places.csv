@@ -1,19 +1,201 @@
-id,label,name,type_place,rating
-49,Place,Hagia Sophia,museum,4.8
-50,Place,Vondelpark,park,4.6
-51,Place,Eiffel Tower,monument,4.9
-52,Place,Colosseum,monument,4.7
-53,Place,Sagrada Familia,church,4.8
-54,Place,Berlin Wall Memorial,museum,4.5
-55,Place,Charles Bridge,landmark,4.7
-56,Place,Schönbrunn Palace,palace,4.8
-57,Place,Fisherman's Bastion,monument,4.6
-58,Place,Belém Tower,fortress,4.5
-59,Place,Tokyo Tower,monument,4.7
-60,Place,British Museum,museum,4.9
-61,Place,Pyramids of Giza,monument,4.8
-62,Place,Taj Mahal,monument,4.9
-63,Place,Burj Khalifa,skyscraper,4.7
-64,Place,Fushimi Inari Shrine,temple,4.8
-65,Place,Prado Museum,museum,4.8
-66,Place,Anıtkabir,monument,4.9
+id,name,type_place,rating,description
+1,Hagia Sophia,monument,4.8,Historic mosque and museum in Istanbul.
+2,Blue Mosque,mosque,4.7,Iconic mosque in Istanbul.
+3,Grand Bazaar,market,4.6,Large covered market in Istanbul.
+4,Anitkabir,monument,4.8,Mausoleum of Ataturk in Ankara.
+5,Kocatepe Mosque,mosque,4.7,Modern mosque in Ankara.
+6,Alsancak,neighborhood,4.6,Popular district in Izmir.
+7,Kordon,coast,4.7,Seaside promenade in Izmir.
+8,Rijksmuseum,museum,4.9,Famous art museum in Amsterdam.
+9,Vondelpark,park,4.8,Amsterdam's most famous park.
+10,Rotterdam Zoo,zoo,4.7,Large zoo in Rotterdam.
+11,Markthal,market,4.6,Modern market hall in Rotterdam.
+12,Dom Tower,tower,4.7,Historic tower in Utrecht.
+13,Eiffel Tower,monument,4.9,Iconic Parisian landmark.
+14,Louvre Museum,museum,4.9,World's largest art museum in Paris.
+15,Notre Dame,cathedral,4.8,Famous cathedral in Paris.
+16,Old Lyon,neighborhood,4.7,Historic district in Lyon.
+17,Basilica of Notre-Dame de Fourvière,church,4.8,Major basilica in Lyon.
+18,Old Port,harbor,4.7,Historic port in Marseille.
+19,Château d'If,castle,4.6,Famous island fortress in Marseille.
+20,Brandenburg Gate,monument,4.8,Historic gate in Berlin.
+21,Berlin Wall Memorial,memorial,4.7,Remains of the Berlin Wall.
+22,Museum Island,museum,4.9,Group of museums in Berlin.
+23,Miniatur Wunderland,exhibit,4.8,Model railway in Hamburg.
+24,Elbphilharmonie,concert_hall,4.7,Modern concert hall in Hamburg.
+25,Main Tower,skyscraper,4.6,Observation deck in Frankfurt.
+26,Colosseum,monument,4.9,Ancient Roman amphitheater in Rome.
+27,St. Peter's Basilica,church,4.9,Major basilica in Vatican City.
+28,Spanish Steps,stairs,4.7,Famous steps in Rome.
+29,Duomo di Milano,cathedral,4.8,Cathedral in Milan.
+30,Sforza Castle,castle,4.7,Historic castle in Milan.
+31,Piazza del Plebiscito,square,4.7,Main square in Naples.
+32,Castel dell'Ovo,castle,4.6,Seaside castle in Naples.
+33,Prado Museum,museum,4.9,Famous art museum in Madrid.
+34,Retiro Park,park,4.8,Large park in Madrid.
+35,Camp Nou,stadium,4.7,Home of FC Barcelona.
+36,La Rambla,street,4.6,Famous street in Barcelona.
+37,City of Arts and Sciences,complex,4.8,Modern complex in Valencia.
+38,Valencia Cathedral,cathedral,4.7,Historic cathedral in Valencia.
+39,Charles Bridge,bridge,4.8,Historic bridge in Prague.
+40,Prague Castle,castle,4.9,Large castle complex in Prague.
+41,Špilberk Castle,castle,4.7,Castle in Brno.
+42,Cathedral of St. Peter and Paul,cathedral,4.8,Cathedral in Brno.
+43,Stodolní Street,street,4.6,Famous nightlife street in Ostrava.
+44,Schönbrunn Palace,palace,4.9,Baroque palace in Vienna.
+45,St. Stephen's Cathedral,cathedral,4.8,Main cathedral in Vienna.
+46,Graz Clock Tower,tower,4.7,Landmark in Graz.
+47,Eggenberg Palace,palace,4.8,Palace in Graz.
+48,Hohensalzburg Fortress,fortress,4.8,Medieval fortress in Salzburg.
+49,Mirabell Palace,palace,4.7,Palace and gardens in Salzburg.
+50,Buda Castle,castle,4.8,Historic castle in Budapest.
+51,Parliament Building,government,4.9,Iconic building in Budapest.
+52,Great Forest Park,park,4.7,Large park in Debrecen.
+53,Reformed Great Church,church,4.6,Landmark church in Debrecen.
+54,Szeged Cathedral,cathedral,4.7,Cathedral in Szeged.
+55,Anna Thermal Bath,spa,4.8,Famous spa in Szeged.
+56,Belém Tower,monument,4.8,Iconic tower in Lisbon.
+57,Jerónimos Monastery,monastery,4.9,Historic monastery in Lisbon.
+58,Dom Luís I Bridge,bridge,4.7,Bridge in Porto.
+59,Clérigos Church,church,4.8,Baroque church in Porto.
+60,University of Coimbra,university,4.7,Historic university in Coimbra.
+61,Tokyo Tower,tower,4.8,Landmark in Tokyo.
+62,Shinjuku Gyoen,park,4.7,Large park in Tokyo.
+63,Osaka Castle,castle,4.8,Historic castle in Osaka.
+64,Dotonbori,street,4.7,Famous street in Osaka.
+65,Kiyomizu-dera,temple,4.9,Historic temple in Kyoto.
+66,Fushimi Inari Shrine,shrine,4.9,Famous shrine in Kyoto.
+67,British Museum,museum,4.9,World's largest museum in London.
+68,London Eye,observation_wheel,4.8,Iconic Ferris wheel in London.
+69,Old Trafford,stadium,4.7,Home of Manchester United.
+70,Science and Industry Museum,museum,4.8,Museum in Manchester.
+71,Bullring,shopping,4.7,Shopping center in Birmingham.
+72,Victoria Square,square,4.6,Main square in Birmingham.
+73,Table Mountain,mountain,4.9,Landmark in Cape Town.
+74,Robben Island,island,4.8,Historic island in Cape Town.
+75,Teotihuacan,pyramid,4.8,Ancient pyramids near Mexico City.
+76,Chapultepec Park,park,4.7,Large park in Mexico City.
+77,Christ the Redeemer,statue,4.9,Iconic statue in Rio de Janeiro.
+78,Sugarloaf Mountain,mountain,4.8,Mountain in Rio de Janeiro.
+79,Opera House,opera,4.9,Iconic building in Sydney.
+80,Bondi Beach,beach,4.8,Famous beach in Sydney.
+81,Harbour Bridge,bridge,4.8,Landmark in Sydney.
+82,Queen Victoria Market,market,4.7,Market in Melbourne.
+83,Great Ocean Road,road,4.9,Scenic drive near Melbourne.
+84,Brisbane Botanic Gardens,garden,4.7,Gardens in Brisbane.
+85,South Bank Parklands,park,4.8,Parklands in Brisbane.
+86,Niagara Falls,waterfall,4.9,Waterfalls near Toronto.
+87,CN Tower,tower,4.8,Landmark in Toronto.
+88,Old Montreal,neighborhood,4.7,Historic area in Montreal.
+89,Mount Royal Park,park,4.8,Park in Montreal.
+90,Stanley Park,park,4.9,Large park in Vancouver.
+91,Granville Island,market,4.7,Market in Vancouver.
+92,Petronas Towers,skyscraper,4.9,Iconic towers in Kuala Lumpur.
+93,Batu Caves,cave,4.8,Famous caves in Kuala Lumpur.
+94,Marina Bay Sands,hotel,4.9,Iconic hotel in Singapore.
+95,Gardens by the Bay,garden,4.8,Famous gardens in Singapore.
+96,Table Mountain National Park,park,4.9,National park in Cape Town.
+97,Johannesburg Zoo,zoo,4.7,Zoo in Johannesburg.
+98,Union Buildings,government,4.8,Government buildings in Pretoria.
+99,Acropolis,monument,4.9,Ancient citadel in Athens.
+100,Parthenon,temple,4.9,Temple on the Acropolis in Athens.
+101,Thessaloniki Waterfront,coast,4.7,Seaside promenade in Thessaloniki.
+102,White Tower,tower,4.8,Landmark in Thessaloniki.
+103,Patras Castle,castle,4.7,Castle in Patras.
+104,Seoul Tower,tower,4.8,Landmark in Seoul.
+105,Gyeongbokgung Palace,palace,4.9,Historic palace in Seoul.
+106,Beijing National Stadium,stadium,4.8,Olympic stadium in Beijing.
+107,Forbidden City,palace,4.9,Historic palace in Beijing.
+108,Red Square,square,4.9,Main square in Moscow.
+109,St. Basil's Cathedral,cathedral,4.9,Iconic cathedral in Moscow.
+110,Winter Palace,palace,4.8,Palace in St Petersburg.
+111,Kyiv Pechersk Lavra,monastery,4.8,Monastery in Kyiv.
+112,Independence Square,square,4.7,Main square in Kyiv.
+113,Johannesburg Art Gallery,museum,4.7,Art museum in Johannesburg.
+114,Guadalajara Cathedral,cathedral,4.8,Cathedral in Guadalajara.
+115,Monterrey Macroplaza,plaza,4.7,Main square in Monterrey.
+116,Valparaiso Port,port,4.7,Port in Valparaiso.
+117,Concepcion University,university,4.7,University in Concepcion.
+118,Medellin Metrocable,cable_car,4.8,Cable car in Medellin.
+119,Cali Zoo,zoo,4.7,Zoo in Cali.
+120,Wat Arun,temple,4.8,Temple in Bangkok.
+121,Grand Palace,palace,4.9,Palace in Bangkok.
+122,Chiang Mai Old City,neighborhood,4.7,Historic area in Chiang Mai.
+123,Phuket Big Buddha,statue,4.8,Large statue in Phuket.
+124,Jakarta Old Town,neighborhood,4.7,Historic area in Jakarta.
+125,National Monument,monument,4.8,Monument in Jakarta.
+126,Surabaya Submarine Monument,monument,4.7,Monument in Surabaya.
+127,Braga Street,street,4.7,Famous street in Bandung.
+128,George Town Street Art,art,4.8,Street art in George Town.
+129,Johor Bahru City Square,shopping,4.7,Shopping mall in Johor Bahru.
+130,Marina Bay,harbor,4.8,Harbor in Singapore.
+131,Tel Aviv Museum of Art,museum,4.8,Art museum in Tel Aviv.
+132,Auckland War Memorial Museum,museum,4.8,Museum in Auckland.
+133,Sky Tower,tower,4.8,Landmark in Auckland.
+134,Central Park,park,4.9,Large park in New York.
+135,Statue of Liberty,statue,4.9,Iconic statue in New York.
+136,Times Square,square,4.8,Famous square in New York.
+137,Hollywood Sign,landmark,4.8,Iconic sign in Los Angeles.
+138,Griffith Observatory,observatory,4.8,Observatory in Los Angeles.
+139,Millennium Park,park,4.8,Park in Chicago.
+140,Art Institute of Chicago,museum,4.9,Art museum in Chicago.
+141,Old Town,neighborhood,4.7,Historic area in Warsaw.
+142,Wawel Castle,castle,4.8,Castle in Krakow.
+143,Zurich Lake,lake,4.8,Lake in Zurich.
+144,Atomium,landmark,4.8,Landmark in Brussels.
+145,St. Michael and St. Gudula Cathedral,cathedral,4.8,Cathedral in Brussels.
+146,Antwerp Zoo,zoo,4.7,Zoo in Antwerp.
+147,Ghent Castle,castle,4.7,Castle in Ghent.
+148,Patagonia National Park,park,4.9,National park in Argentina.
+149,Obelisco,monument,4.8,Monument in Buenos Aires.
+150,La Boca,neighborhood,4.7,Colorful district in Buenos Aires.
+151,Plaza Mayor,square,4.8,Main square in Madrid.
+152,Plaza de Armas,square,4.8,Main square in Santiago.
+153,San Cristobal Hill,hill,4.8,Hill in Santiago.
+154,Plaza Bolivar,square,4.8,Main square in Bogota.
+155,Gold Museum,museum,4.9,Museum in Bogota.
+156,Plaza de Mayo,square,4.8,Main square in Buenos Aires.
+157,Obelisk of Sao Paulo,monument,4.8,Monument in Sao Paulo.
+158,Paulista Avenue,avenue,4.7,Famous avenue in Sao Paulo.
+159,Christchurch Botanic Gardens,garden,4.8,Gardens in Christchurch.
+160,Cathedral Square,square,4.7,Main square in Christchurch.
+161,Mount Eden,mountain,4.8,Mountain in Auckland.
+162,Waitemata Harbour,harbor,4.8,Harbor in Auckland.
+163,St. Mary's Cathedral,cathedral,4.8,Cathedral in Sydney.
+164,Hyde Park,park,4.8,Park in Sydney.
+165,Queen Victoria Building,shopping,4.8,Shopping center in Sydney.
+166,Flinders Street Station,station,4.8,Historic station in Melbourne.
+167,St Kilda Beach,beach,4.8,Beach in Melbourne.
+168,Southbank,neighborhood,4.7,Neighborhood in Melbourne.
+169,Mount Fuji,mountain,4.9,Iconic mountain near Tokyo.
+170,Shibuya Crossing,intersection,4.8,Famous crossing in Tokyo.
+171,Akihabara,neighborhood,4.7,Electronics district in Tokyo.
+172,Osaka Aquarium,aquarium,4.8,Aquarium in Osaka.
+173,Universal Studios Japan,theme_park,4.8,Theme park in Osaka.
+174,Arashiyama Bamboo Grove,forest,4.9,Bamboo forest in Kyoto.
+175,Nishiki Market,market,4.8,Market in Kyoto.
+176,Kyoto Imperial Palace,palace,4.8,Palace in Kyoto.
+177,Kyoto Tower,tower,4.7,Tower in Kyoto.
+178,Sumida River,river,4.7,River in Tokyo.
+179,Tokyo Disneyland,theme_park,4.9,Theme park in Tokyo.
+180,Tokyo Skytree,tower,4.9,Tallest structure in Japan.
+181,Meiji Shrine,shrine,4.8,Shinto shrine in Tokyo.
+182,Shinjuku Golden Gai,neighborhood,4.7,Bar district in Tokyo.
+183,Tokyo National Museum,museum,4.8,National museum in Tokyo.
+184,Imperial Palace,palace,4.8,Residence of the Emperor of Japan.
+185,Asakusa,neighborhood,4.7,Historic district in Tokyo.
+186,Tsukiji Market,market,4.8,Famous fish market in Tokyo.
+187,Tokyo Dome,stadium,4.8,Stadium in Tokyo.
+188,Tokyo Metropolitan Government Building,government,4.8,Government building in Tokyo.
+189,Tokyo International Forum,convention_center,4.8,Convention center in Tokyo.
+190,Tokyo Midtown,complex,4.8,Multi-use complex in Tokyo.
+191,Tokyo Opera City,opera,4.8,Opera house in Tokyo.
+192,Tokyo Tower,observation_tower,4.8,Observation tower in Tokyo.
+193,Tokyo Big Sight,convention_center,4.8,Convention center in Tokyo.
+194,Tokyo Sea Life Park,aquarium,4.8,Aquarium in Tokyo.
+195,Tokyo Joypolis,amusement_park,4.8,Indoor amusement park in Tokyo.
+196,Tokyo International Airport,airport,4.8,Main airport in Tokyo.
+197,Tokyo Station,station,4.8,Main railway station in Tokyo.
+198,Tokyo Bay,harbor,4.8,Harbor in Tokyo.
+199,Tokyo Tower,landmark,4.8,Landmark in Tokyo.
+200,Tokyo Skytree,landmark,4.9,Landmark in Tokyo. 
