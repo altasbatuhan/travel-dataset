@@ -1,51 +1,51 @@
-id,name,code
-1,Turkey,TR
-2,Netherlands,NL
-3,France,FR
-4,Germany,DE
-5,Italy,IT
-6,Spain,ES
-7,Czechia,CZ
-8,Austria,AT
-9,Hungary,HU
-10,Portugal,PT
-11,Japan,JP
-12,UK,GB
-13,Egypt,EG
-14,India,IN
-15,UAE,AE
-16,USA,US
-17,Australia,AU
-18,Canada,CA
-19,Brazil,BR
-20,Argentina,AR
-21,Sweden,SE
-22,Norway,NO
-23,Denmark,DK
-24,Finland,FI
-25,Poland,PL
-26,Switzerland,CH
-27,Belgium,BE
-28,Greece,GR
-29,South Korea,KR
-30,China,CN
-31,Russia,RU
-32,Ukraine,UA
-33,South Africa,ZA
-34,Mexico,MX
-35,Chile,CL
-36,Colombia,CO
-37,Thailand,TH
-38,Indonesia,ID
-39,Malaysia,MY
-40,Singapore,SG
-41,Saudi Arabia,SA
-42,Israel,IL
-43,New Zealand,NZ
-44,Philippines,PH
-45,Vietnam,VN
-46,Turkey,TR2
-47,Serbia,RS
-48,Croatia,HR
-49,Slovakia,SK
-50,Slovenia,SI 
+id,name,code,continent
+1,Turkey,TR,Europe
+2,Netherlands,NL,Europe
+3,France,FR,Europe
+4,Germany,DE,Europe
+5,Italy,IT,Europe
+6,Spain,ES,Europe
+7,Czechia,CZ,Europe
+8,Austria,AT,Europe
+9,Hungary,HU,Europe
+10,Portugal,PT,Europe
+11,Japan,JP,Asia
+12,UK,GB,Europe
+13,Egypt,EG,Africa
+14,India,IN,Asia
+15,UAE,AE,Asia
+16,USA,US,North America
+17,Australia,AU,Australia
+18,Canada,CA,North America
+19,Brazil,BR,South America
+20,Argentina,AR,South America
+21,Sweden,SE,Europe
+22,Norway,NO,Europe
+23,Denmark,DK,Europe
+24,Finland,FI,Europe
+25,Poland,PL,Europe
+26,Switzerland,CH,Europe
+27,Belgium,BE,Europe
+28,Greece,GR,Europe
+29,South Korea,KR,Asia
+30,China,CN,Asia
+31,Russia,RU,Europe
+32,Ukraine,UA,Europe
+33,South Africa,ZA,Africa
+34,Mexico,MX,North America
+35,Chile,CL,South America
+36,Colombia,CO,South America
+37,Thailand,TH,Asia
+38,Indonesia,ID,Asia
+39,Malaysia,MY,Asia
+40,Singapore,SG,Asia
+41,Saudi Arabia,SA,Asia
+42,Israel,IL,Asia
+43,New Zealand,NZ,Oceania
+44,Philippines,PH,Asia
+45,Vietnam,VN,Asia
+46,Turkey,TR2,Europe
+47,Serbia,RS,Europe
+48,Croatia,HR,Europe
+49,Slovakia,SK,Europe
+50,Slovenia,SI,Europe 
